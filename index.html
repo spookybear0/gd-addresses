@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>GD Addresses</title>
-  </head>
-  <body>
-    <nav></nav>
-    <main></main>
-  </body>
+    <head>
+        <title>GD Addresses</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="index.css">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <details>
+                <summary>GJGameLevel</summary>
+                <section>
+                    <button>init</button>
+                </section>
+            </details>
+        </nav>
+        <main>
+            <header>
+                <h1>GD Address Reference</h1>
+            </header>
+            
+            <section id="search">
+                <div>
+                    <input placeholder="Search addresses...">
+                    <i data-feather="search"></i>
+                </div>
+                <article id="results"></article>
+            </section>
+
+            <article id="info"></article>
+        </main>
+    </body>
 </html>
