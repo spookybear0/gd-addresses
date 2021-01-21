@@ -20,4 +20,12 @@ PlayLayer.PlayerObject = PlayLayer + 0x224
 PlayLayer::onQuit = base + 0x20D810
 
 PlayLayer::levelComplete = base + 0x1FD3D0
+
+PlayLayer.isDead = PlayLayer + 0x39C
+
+PlayLayer.levelLength = PlayLayer + 0x3B4
+
+PlayLayer.isPractice = PlayLayer + 0x495
+
+PlayLayer.currentAttempt = PlayLayer + 0x4A8
 ```
