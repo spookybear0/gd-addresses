@@ -5,13 +5,19 @@ Since PlayerObject can be any player, this means that some functions will be cal
 Here are the known addresses:
 
 ```
-PlayerObject::pushButtonHook = base + 0x1F4E40
+PlayerObject::pushButton = base + 0x1F4E40
 
-PlayerObject::releaseButtonHook = base + 0x1F4F70
+PlayerObject::releaseButton = base + 0x1F4F70
 
 PlayerObject::playDeathEffect = base + 0x2EFBE0
 
 float PlayerObject.x = PlayerObject + 0x34
 
 float PlayerObject.y = PlayerObject + 0x38
+
+float PlayerObject.y_acceleration = PlayerObject + 0x62c
+
+float PlayerObject.hitbox_rotation = PlayerObject + 0x20
+
+float PlayerObject.sprite_rotation = PlayerObject + 0x24
 ```
