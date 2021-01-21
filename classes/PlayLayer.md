@@ -27,19 +27,11 @@ PlayLayer::onQuit = base + 0x20D810
 
 PlayLayer::levelComplete = base + 0x1FD3D0
 
-PlayLayer::timeForXPos2 = base + 0x1FD3D0
+PlayLayer.isDead = PlayLayer + 0x39C
 
-PlayLayer::togglePracticeMode = base + 0x20D0D1
+PlayLayer.levelLength = PlayLayer + 0x3B4
 
-PlayLayer::destroyPlayer = base + 0x20A1A0
+PlayLayer.isPractice = PlayLayer + 0x495
 
-PlayLayer::markCheckpoint = base + 0x20B450
-
-PlayLayer::removeLastCheckpoint = base + 0x20B830
-
-PlayLayer::getCapacityString = base + 0x10C9B0
-
-PlayLayer::updateAttempts = base + 0x20CED0
-
-PlayLayer::resetLevel = base + 0x20BF00
+PlayLayer.currentAttempt = PlayLayer + 0x4A8
 ```
