@@ -18,4 +18,6 @@ float PlayerObject.y = PlayerObject + 0x38
 float PlayerObject.y_acceleration = PlayerObject + 0x62c
 
 float PlayerObject.hitbox_rotation = PlayerObject + 0x20
+
+float PlayerObject.sprite_rotation = PlayerObject + 0x24
 ```
