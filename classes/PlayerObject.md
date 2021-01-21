@@ -9,6 +9,8 @@ PlayerObject::pushButtonHook = base + 0x1F4E40
 
 PlayerObject::releaseButtonHook = base + 0x1F4F70
 
+PlayerObject::playDeathEffect = base + 0x2EFBE0
+
 float PlayerObject.x = PlayerObject + 0x34
 
 float PlayerObject.y = PlayerObject + 0x38
