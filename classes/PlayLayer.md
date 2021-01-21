@@ -41,7 +41,7 @@ PlayLayer::togglePracticeMode = base + 0x20D0D1
 
 PlayLayer::destroyPlayer = base + 0x20A1A0
 
-PlayLayer::markCheckpoint = base + 0x20B450
+PlayLayer::markCheckpoint = base + 0x25FB60
 
 PlayLayer::removeLastCheckpoint = base + 0x20B830
 
