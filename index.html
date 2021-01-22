@@ -4,20 +4,15 @@
         <title>GD Addresses</title>
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <script src="https://unpkg.com/feather-icons"></script>
+        <script src="database.js" defer></script>
         <script src="index.js" defer></script>
     </head>
     <body>
-        <nav>
-            <details>
-                <summary>GJGameLevel</summary>
-                <section>
-                    <button>init</button>
-                </section>
-            </details>
-        </nav>
         <main>
             <header>
                 <h1>GD Address Reference</h1>
@@ -28,10 +23,15 @@
                     <input placeholder="Search addresses...">
                     <i data-feather="search"></i>
                 </div>
-                <article id="results"></article>
             </section>
 
-            <article id="info"></article>
+            <br>
+            
+            <section id="content"></section>
         </main>
+        <nav>
+            <a href="tutorials.html">Tutorials</a>
+            <a href="credits.html">Credits</a>
+        </nav>
     </body>
 </html>
