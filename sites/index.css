@@ -28,6 +28,7 @@
     --color-article-hover:  #555;
     --color-article-info:   rgba(0, 0, 0, .3);
     --color-code:           rgba(0, 0, 0, .3);
+    --color-light:          rgba(255, 255, 255, .1);
 
     --trans:                .5s;
     --trans-fast:           .1s;
@@ -242,4 +243,17 @@ t-code {
     border-radius: var(--size-rounded);
     font-family: 'Inconsolata', monospace;
     cursor: text;
+}
+
+.offset-copy {
+    background-color: var(--color-light);
+    color: var(--color-text);
+    padding: calc( var(--size-pad) / 4 );
+    border-radius: calc( var(--size-rounded) / 4 );
+    border: none;
+    transition-duration: var(--trans-fast);
+}
+
+.offset-copy:hover {
+    background-color: var(--color-hover);
 }
