@@ -11,7 +11,9 @@ function generateFunctionText(ns, addr) {
                     addr.callingConvention +
                     "</t-main> <t-third>" +
                     ns.namespace +
-                    "</t-third>::<t-sec>" +
+                    "</t-third>" +
+                    (addr.function.startsWith('.') ? "" : "::") +
+                    "<t-sec>" +
                     addr.function +
                     "</t-sec>(";
     let resExpl = "";
@@ -27,8 +29,6 @@ function generateFunctionText(ns, addr) {
         }
     });
     resFunc = resFunc.substr(0, resFunc.length - 2) + ")";
-
-    console.log(resExpl);
 
     return `
         <text><t-code>${resFunc}</t-code></text>
@@ -57,18 +57,27 @@ function generateFunctionDesc(addr) {
 addresses.forEach((ns, nix) => {
     ns.contents.forEach((add, aix) => {
         const article = document.createElement('article');
+        const separator = add.function.startsWith('.') ? '' : "::";
         article.innerHTML = `
-        <h1>${ns.namespace}::${add.function}</h1>
+        <h1>${ns.namespace}${separator}${add.function}</h1>
         <text>${convertAddr(add.address)}</text>
+        <margin-top />
+        <button class='offset-copy'>Copy offset</button>
         <section>
             ${generateFunctionText(ns, add)}
             ${generateFunctionDesc(add)}
         </section>
+        <input value="${add.address.split(' ').pop()}" style="opacity: 0; width: 0px">
         <a-meta data-meta='${nix}::${aix}'></a-meta>
         `;
 
+        article.querySelector('button').addEventListener('click', e => {
+            article.querySelector('input').select();
+            document.execCommand('copy');
+        });
+
         article.addEventListener('click', e => {
-            if (article.querySelector('section:hover'))
+            if (article.querySelector('section:hover') || article.querySelector('button:hover'))
                 return;
             const d = article.querySelector('section');
             if (d.style.display == 'none') {
