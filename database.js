@@ -37,6 +37,27 @@ const addresses = [
         ]
     },
     {
+        namespace: "MenuLayer",
+        contents: [
+            {
+                function: "init",
+                address: "%GD + 0x1907b0",
+                tags: [ "main menu" ],
+                args: [
+                    { arg: "-returnValue", type: "bool", desc: "Unknown" },
+                    { arg: "self", type: "CCLayer*", desc: "The layer itself" },
+                ],
+                callingConvention: "__fastcall",
+                description: `
+                The initialization function for MenuLayer.
+                <br><br>   
+                Layer child indexes:<br>
+                 <t-dark>•</t-dark> <t-main>3</t-main> <t-fourth>CCMenu*</t-fourth> <t-norm>Bottom Menu</t-norm>
+                `
+            }
+        ]
+    },
+    {
         namespace: "GameManager",
         contents: [
             {

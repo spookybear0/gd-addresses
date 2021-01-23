@@ -19,11 +19,11 @@ function generateFunctionText(ns, addr) {
         switch (a.arg) {
             case "-returnValue":
                 resFunc = "<t-fourth>" + a.type + "</t-fourth> " + resFunc;
-                resExpl = "<tr><td><t-main>returnValue</t-main></td><td>" + a.type + "</td><td>" + a.desc + "</td></tr>\n" + resExpl;
+                resExpl = "<tr><td><t-main>returnValue</t-main></td><td><t-fourth>" + a.type + "</t-fourth></td><td>" + a.desc + "</td></tr>\n" + resExpl;
                 break;
             default:
                 resFunc += "<t-fourth>" + a.type + "</t-fourth> " + a.arg + ", ";
-                resExpl += "<tr><td><t-main>" + a.arg + "</t-main></td><td>" + a.type + "</td><td>" + a.desc + "</td></tr>\n";
+                resExpl += "<tr><td><t-main>" + a.arg + "</t-main></td><td><t-fourth>" + a.type + "</t-fourth></td><td>" + a.desc + "</td></tr>\n";
         }
     });
     resFunc = resFunc.substr(0, resFunc.length - 2) + ")";

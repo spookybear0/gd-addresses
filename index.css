@@ -211,6 +211,14 @@ margin-top {
     display: block;
 }
 
+t-dark {
+    color: var(--color-text-dark);
+}
+
+t-norm {
+    color: var(--color-text);
+}
+
 t-main {
     color: var(--color-main);
 }
