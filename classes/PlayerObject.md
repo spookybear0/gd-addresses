@@ -4,7 +4,7 @@ Since PlayerObject can be any player, this means that some functions will be cal
 
 Here are the known addresses:
 
-```
+```cpp
 PlayerObject::pushButton = base + 0x1F4E40
 
 PlayerObject::releaseButton = base + 0x1F4F70
@@ -15,7 +15,7 @@ float PlayerObject.x = PlayerObject + 0x34
 
 float PlayerObject.y = PlayerObject + 0x38
 
-float PlayerObject.y_acceleration = PlayerObject + 0x62c
+double PlayerObject.y_acceleration = PlayerObject + 0x628
 
 float PlayerObject.hitbox_rotation = PlayerObject + 0x20
 
