@@ -173,6 +173,14 @@ const addresses = [
                 callingConvention: "__fastcall"
             },
             {
+                function: "createCheckpoint",
+                address: "%GD + 0x20B050",
+                args: [
+                    { arg: "-returnValue", type: "int", desc: "unknown" },
+                    { arg: "self", type: "CCLayer*", desc: "PlayLayer" }
+                ]
+            },
+            {
                 function: "removeLastCheckpoint",
                 address: "%GD + 0x20B830"
             },
