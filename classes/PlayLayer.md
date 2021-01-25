@@ -43,6 +43,8 @@ PlayLayer::destroyPlayer = base + 0x20A1A0
 
 PlayLayer::markCheckpoint(CCLayer*, void*, void*) = base + 0x25FB60
 
+PlayLayer::createCheckpoint = base + 0x20B050
+
 PlayLayer::removeLastCheckpoint = base + 0x20B830
 
 PlayLayer::getCapacityString = base + 0x10C9B0
