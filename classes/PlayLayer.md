@@ -11,7 +11,7 @@ PlayLayer::update = base + 0x2029C0
 
 PlayLayer::updateReplay = base + 0x20AF40
 
-PlayLayer::releaseButton = base + 0x1F4F70
+PlayLayer::releaseButton = base + 0x111660
 
 PlayLayer::pushButton = base + 0x111500
 
