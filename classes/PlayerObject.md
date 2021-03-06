@@ -13,6 +13,24 @@ PlayerObject::playDeathEffect = base + 0x2EFBE0
 
 PlayerObject::PlayerDestroyed = base + 0x1EFAA0
 
+PlayerObject::flipGravity = base + 0x1F59D0
+
+PlayerObject::toggleFlyMode = base + 0x1F5E40
+
+PlayerObject::toggleBirdMode = base + 0x1F6050 
+
+PlayerObject::toggleRollMode = base + 0x1F68E0 
+
+PlayerObject::toggleDartMode = base + 0x1F62C0 
+
+PlayerObject::toggleRobotMode = base + 0x1F6A10 
+
+PlayerObject::toggleSpiderMode = base + 0x1F94D1 
+
+PlayerObject::updateTimeMod = base + 0x1F94E0 
+
+PlayerObject::togglePlayerScale = base + 0x1F9640 
+
 float PlayerObject.x = PlayerObject + 0x34
 
 float PlayerObject.y = PlayerObject + 0x38
