@@ -30,3 +30,10 @@ Open up Visual Studio 2019, this is the program we will be using to write our co
 
 ## Your first mod
 
+
+
+## Helpful resources
+
+[gd_decompilied](https://github.com/ItalianApkDownloader/gd_decompiled/) is very helpful for knowing the class structure of the game. Do keep in mind that this is the android version so it might not be the same on windows.
+
+[gd-addresses](https://github.com/spookybear0/gd-addresses) is very helpful in finding the spots in memory where functions are stored (like 0x01FB780). If you find any addresses on your own, contributing them to this repo or DMing spook at spook#9315.
