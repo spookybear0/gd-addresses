@@ -37,3 +37,9 @@ Open up Visual Studio 2019, this is the program we will be using to write our co
 [gd_decompilied](https://github.com/ItalianApkDownloader/gd_decompiled/) is very helpful for knowing the class structure of the game. Do keep in mind that this is the android version so it might not be the same on windows.
 
 [gd-addresses](https://github.com/spookybear0/gd-addresses) is very helpful in finding the spots in memory where functions are stored (like 0x01FB780). If you find any addresses on your own, contributing them to this repo or DMing spook at spook#9315.
+
+[cappuchino-sdk](https://github.com/AndreNIH/CappuccinoSDK) is a tool for allowing you to call cocos2d-x functions and use cocos2d-x classes easily. Installation instructions will be located in another tutorial.
+
+[MinHook](https://github.com/TsudaKageyu/minhook) is a header for being able to "hook" functions, by calling a callback whenever it is called.
+
+[gd.h](https://github.com/poweredbypie/gd.h) Geometry Dash headers for easy calling of GD functions.
