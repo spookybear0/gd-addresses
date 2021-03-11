@@ -7,9 +7,9 @@ Showing the achievement should be called from the main thread (like from a butto
 Here are the known addresses:
 
 ```
-AchievementNotifier::sharedState = base + 0xFC90
+AchievementManager::sharedState = base + 0xFC90
 
-AchievementNotifier::notifyAchievement = base + 0x3B120
+AchievementManager::notifyAchievement = base + 0x3B120
 
-AchievementNotifier::show = base + 0x3BE50 (should be used on notifyAchievement)
+AchievementManager::show = base + 0x3BE50 (should be used on notifyAchievement)
 ```
