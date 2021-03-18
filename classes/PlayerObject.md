@@ -11,7 +11,7 @@ PlayerObject::releaseButton = base + 0x1F4F70
 
 PlayerObject::playDeathEffect = base + 0x2EFBE0
 
-PlayerObject::PlayerDestroyed = base + 0x1EFAA0
+PlayerObject::playerDestroyed = base + 0x1EFAA0
 
 PlayerObject::flipGravity = base + 0x1F59D0
 
@@ -29,7 +29,21 @@ PlayerObject::toggleSpiderMode = base + 0x1F94D1
 
 PlayerObject::updateTimeMod = base + 0x1F94E0 
 
-PlayerObject::togglePlayerScale = base + 0x1F9640 
+PlayerObject::togglePlayerScale = base + 0x1F9640
+
+PlayerObject::setFlipX = base + 0x1fa690
+
+PlayerObject::setFlipY = base + 0x1fa740
+
+PlayerObject::resetObject = base + 0x1eecd0
+
+PlayerObject::getRealPosition = base + 0x1f7e20
+
+PlayerObject::getOrientedBox = base + 0x1f95d0
+
+PlayerObject::fadeOutStreak2 = base + 0x1F9110
+
+PlayerObject::toggleGhostEffect = base + 0x1F8930
 
 float PlayerObject.x = PlayerObject + 0x34
 

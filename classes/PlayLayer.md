@@ -1,8 +1,20 @@
 This is the layer of gd where the level and player resides.
 
 Here are the known addresses:
+```cpp
 
-```
+PlayLayer::~PlayLayer = base + 0x1fafc0
+
+PlayLayer::onEnterTransitionDidFinish = base + 0x20dbd0
+
+PlayLayer::onExit = base + 0x20dc00
+
+PlayLayer::draw = base + 0x208870
+
+PlayLayer::visit = base + 0x200020
+
+PlayLayer::updateTweenAction = base + 0x20d1f0
+
 PlayLayer::create = base + 0x1FB6D0
 
 PlayLayer::init = base + 0x01FB780
@@ -25,7 +37,7 @@ PlayLayer::togglePracticeMode = base + 0x20D0D1
 
 PlayLayer::destroyPlayer = base + 0x20A1A0
 
-PlayLayer::markCheckpoint(CCLayer*, void*, void*) = base + 0x25FB60
+PlayLayer::markCheckpoint = base + 0x25FB60
 
 PlayLayer::createCheckpoint = base + 0x20B050
 
@@ -37,9 +49,9 @@ PlayLayer::updateAttempts = base + 0x20CED0
 
 PlayLayer::resetLevel = base + 0x20BF00
 
-PlayLayer::setupLevelStart(PlayLayer* self, LevelSettingsObject*) = base + 0x1FB780
+PlayLayer::setupLevelStart = base + 0x1FB780
 
-PlayLayer::flipGravity(PlayerLayer* self, PlayerObject*, GameObject*, bool, bool) = base + 0x1F59D0
+PlayLayer::flipGravity = base + 0x1F59D0
 
 PlayLayer.isDead = PlayLayer + 0x39C
 
