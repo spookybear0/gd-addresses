@@ -31,15 +31,15 @@ void __thiscall PlayerObject::updateTimeMod(PlayerObject*, float time) = base + 
 
 void __thiscall PlayerObject::togglePlayerScale(PlayerObject*, bool toggle) = base + 0x1F9640;
 
-void __thiscall PlayerObject::setFlipX(PlayerObject*, bool flip) = base + 0x1fa690;
+void __thiscall PlayerObject::setFlipX(PlayerObject*, bool flip) = base + 0x1FA690;
 
-void __thiscall PlayerObject::setFlipY(PlayerObject*, bool flip) = base + 0x1fa740;
+void __thiscall PlayerObject::setFlipY(PlayerObject*, bool flip) = base + 0x1FA740;
 
-void __thiscall PlayerObject::resetObject(PlayerObject*) = base + 0x1eecd0;
+void __thiscall PlayerObject::resetObject(PlayerObject*) = base + 0x1EECD0;
 
-CCPoint __thiscall PlayerObject::getRealPosition(PlayerObject*) = base + 0x1f7e20;
+CCPoint __thiscall PlayerObject::getRealPosition(PlayerObject*) = base + 0x1F7E20;
 
-m_250h_undefined __thiscall PlayerObject::getOrientedBox(PlayerObject*) = base + 0x1f95d0;
+m_250h_undefined __thiscall PlayerObject::getOrientedBox(PlayerObject*) = base + 0x1F95D0;
 
 void __thiscall PlayerObject::fadeOutStreak2(PlayerObject*, float m_unknown_1) = base + 0x1F9110;
 
