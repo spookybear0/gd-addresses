@@ -5,7 +5,7 @@ Here are the known addresses:
 ```
 AccountManager::init = base + 0x3222D8
 
-AccountManager.userName = AccountManager + 0x108
+CCString* AccountManager.userName = AccountManager + 0x108
 
-AccountManager.password = AccountManager + 0xF0
+CCString* AccountManager.password = AccountManager + 0xF0
 ```
