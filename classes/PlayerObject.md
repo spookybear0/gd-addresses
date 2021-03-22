@@ -39,7 +39,7 @@ void __thiscall PlayerObject::resetObject(PlayerObject*); // base + 0x1eecd0
 
 CCPoint __thiscall PlayerObject::getRealPosition(PlayerObject*); // base + 0x1f7e20
 
-(m_250h_undefined) __thiscall PlayerObject::getOrientedBox(PlayerObject*); // base + 0x1f95d0
+m_250h_undefined __thiscall PlayerObject::getOrientedBox(PlayerObject*); // base + 0x1f95d0
 
 void __thiscall PlayerObject::fadeOutStreak2(PlayerObject*, float m_unknown_1); // base + 0x1F9110
 
