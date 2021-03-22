@@ -65,7 +65,5 @@ PlayLayer.Player2 = PlayLayer + 0x228
 
 PlayLayer.Player1 = PlayLayer + 0x224
 
-PlayLayer.PlayerObject = PlayLayer + 0x224
-
 PlayLayer.time = PlayLayer + 0x450
 ```
