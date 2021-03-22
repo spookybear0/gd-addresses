@@ -3,7 +3,7 @@ The class is the GameManager, this class, well, manages the game and can be used
 Here are the known addresses:
 
 ```
-AccountManager::init = base + 0x3222D8
+AccountManager* Global_AccountManager = base + 0x3222D8
 
 CCString* AccountManager.userName = AccountManager + 0x108
 
