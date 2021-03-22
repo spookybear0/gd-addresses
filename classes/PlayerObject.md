@@ -55,5 +55,7 @@ float PlayerObject.hitbox_rotation = PlayerObject + 0x20
 
 float PlayerObject.sprite_rotation = PlayerObject + 0x24
 
-CCNodeRGBA PlayerObject.wave_trail = PlayerObject + 0x514
+CCMotionStreak* PlayerObject.trail = PlayerObject + 0x510
+
+HardStreak* PlayerObject.wave_trail = PlayerObject + 0x514
 ```
