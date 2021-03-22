@@ -53,19 +53,17 @@ PlayLayer::setupLevelStart = base + 0x1FB780
 
 PlayLayer::flipGravity = base + 0x1F59D0
 
-PlayLayer.isDead = PlayLayer + 0x39C
+bool PlayLayer.isDead = PlayLayer + 0x39C
 
-PlayLayer.levelLength = PlayLayer + 0x3B4
+float PlayLayer.levelLength = PlayLayer + 0x3B4
 
-PlayLayer.isPractice = PlayLayer + 0x495
+bool PlayLayer.isPractice = PlayLayer + 0x495
 
-PlayLayer.currentAttempt = PlayLayer + 0x4A8
+int PlayLayer.currentAttempt = PlayLayer + 0x4A8
 
-PlayLayer.Player2 = PlayLayer + 0x228
+PlayerObject* PlayLayer.PlayerObject2 = PlayLayer + 0x228
 
-PlayLayer.Player1 = PlayLayer + 0x224
+PlayerObject* PlayLayer.PlayerObject1 = PlayLayer + 0x224
 
-PlayLayer.PlayerObject = PlayLayer + 0x224
-
-PlayLayer.time = PlayLayer + 0x450
+double PlayLayer.time = PlayLayer + 0x450
 ```

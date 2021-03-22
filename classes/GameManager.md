@@ -3,7 +3,7 @@ The class is the GameManager, this class, well, manages the game and can be used
 Here are the known addresses:
 
 ```
-GameManager::init = base + 0x3222D0
+GameManager* Global_GameManager = base + 0x3222D0
 
 GameManager::getSharedState = base + 0xC4A50
 

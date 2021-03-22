@@ -3,9 +3,9 @@ The class is the GameManager, this class, well, manages the game and can be used
 Here are the known addresses:
 
 ```
-AccountManager::init = base + 0x3222D8
+AccountManager* Global_AccountManager = base + 0x3222D8
 
-AccountManager.userName = AccountManager + 0x108
+CCString* AccountManager.userName = AccountManager + 0x108
 
-AccountManager.password = AccountManager + 0xF0
+CCString* AccountManager.password = AccountManager + 0xF0
 ```
