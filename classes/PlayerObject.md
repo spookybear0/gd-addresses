@@ -5,6 +5,8 @@ Since PlayerObject can be any player, this means that some functions will be cal
 Here are the known addresses:
 
 ```cpp
+PlayerObject::init = base + 0x1E6DA0
+
 void __thiscall PlayerObject::pushButton(PlayerObject*, PlayerButton player_button) = base + 0x1F4E40;
 
 void __thiscall PlayerObject::releaseButton(PlayerObject*, PlayerButton player_button) = base + 0x1F4F70;
