@@ -7,9 +7,9 @@ Here are the known addresses:
 ```
 AchievementBar::show = base + 0x3BE50
 
-AchievementBar::sharedState = base + 0xfc90
+AchievementBar::sharedState = base + 0xFC90
 
 AchievementBar::create = base + 0x3B120
 
-AchievementBar::showNextAchievement = base + 0xfd60
+AchievementBar::showNextAchievement = base + 0xFD60
 ```
