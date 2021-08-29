@@ -3,17 +3,17 @@ This is the layer of gd where the level and player resides.
 Here are the known addresses:
 ```cpp
 
-PlayLayer::~PlayLayer = base + 0x1fafc0
+PlayLayer::~PlayLayer = base + 0x1FAFC0
 
-PlayLayer::onEnterTransitionDidFinish = base + 0x20dbd0
+PlayLayer::onEnterTransitionDidFinish = base + 0x20DBD0
 
-PlayLayer::onExit = base + 0x20dc00
+PlayLayer::onExit = base + 0x20DC00
 
 PlayLayer::draw = base + 0x208870
 
 PlayLayer::visit = base + 0x200020
 
-PlayLayer::updateTweenAction = base + 0x20d1f0
+PlayLayer::updateTweenAction = base + 0x20D1F0
 
 PlayLayer::create = base + 0x1FB6D0
 
