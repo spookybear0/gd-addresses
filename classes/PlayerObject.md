@@ -60,7 +60,7 @@ bool PlayerObject.isRobot = PlayerObject + 0x63C;
 
 bool PlayerObject.isSpider = PlayerObject + 0x63D;
 
-bool PlayerObject.bFlipped = PlayerObject + 0x63E;
+bool PlayerObject.isFlipped = PlayerObject + 0x63E;
 
 float PlayerObject.x = PlayerObject + 0x67C;
 
