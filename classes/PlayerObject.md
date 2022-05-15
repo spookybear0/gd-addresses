@@ -48,17 +48,19 @@ void __thiscall PlayerObject::fadeOutStreak2(PlayerObject*, float m_unknown_1) =
 void __thiscall PlayerObject::toggleGhostEffect(PlayerObject*, GhostType type) = base + 0x1F8930;
 
 // If none of them are true, the player is in cube mode
-bool PlayObject.isShip = PlayerObject + 0x638;
+bool PlayerObject.isShip = PlayerObject + 0x638;
 
-bool PlayObject.isBird = PlayerObject + 0x639;
+bool PlayerObject.isBird = PlayerObject + 0x639;
 
-bool PlayObject.isBall = PlayerObject + 0x63A;
+bool PlayerObject.isBall = PlayerObject + 0x63A;
 
-bool PlayObject.isDart = PlayerObject + 0x63B;
+bool PlayerObject.isDart = PlayerObject + 0x63B;
 
-bool PlayObject.isRobot = PlayerObject + 0x63C;
+bool PlayerObject.isRobot = PlayerObject + 0x63C;
 
-bool PlayObject.isSpider = PlayerObject + 0x63D;
+bool PlayerObject.isSpider = PlayerObject + 0x63D;
+
+bool PlayerObject.isFlipped = PlayerObject + 0x63E;
 
 float PlayerObject.x = PlayerObject + 0x67C;
 
