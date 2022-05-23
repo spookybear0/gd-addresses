@@ -11,7 +11,7 @@ void __thiscall PlayerObject::pushButton(PlayerObject*, PlayerButton player_butt
 
 void __thiscall PlayerObject::releaseButton(PlayerObject*, PlayerButton player_button) = base + 0x1F4F70;
 
-void __thiscall PlayerObject::playDeathEffect(PlayerObject*) = base + 0x2EFBE0;
+void __thiscall PlayerObject::playDeathEffect(PlayerObject*) = base + 0x1EFBE0;
 
 void __thiscall PlayerObject::playerDestroyed(PlayerObject*, bool destroyed) = base + 0x1EFAA0;
 
